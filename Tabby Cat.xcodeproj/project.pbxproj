@@ -11,6 +11,12 @@
 		D9D951522A8AA99B00BCFFFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D951512A8AA99B00BCFFFD /* ContentView.swift */; };
 		D9D951542A8AA99C00BCFFFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D951532A8AA99C00BCFFFD /* Assets.xcassets */; };
 		D9D951572A8AA99C00BCFFFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D951562A8AA99C00BCFFFD /* Preview Assets.xcassets */; };
+		D9D9515E2A8AA9D900BCFFFD /* CatFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D9515D2A8AA9D900BCFFFD /* CatFactsView.swift */; };
+		D9D951602A8AA9E000BCFFFD /* CatImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D9515F2A8AA9E000BCFFFD /* CatImagesView.swift */; };
+		D9D951622A8AA9EA00BCFFFD /* CatBounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D951612A8AA9EA00BCFFFD /* CatBounceView.swift */; };
+		D9D951642A8AA9F000BCFFFD /* CatGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D951632A8AA9F000BCFFFD /* CatGalleryView.swift */; };
+		D9D951662A8AAC7400BCFFFD /* CatFactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D951652A8AAC7400BCFFFD /* CatFactsManager.swift */; };
+		D9D951682A8AB05B00BCFFFD /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D951672A8AB05B00BCFFFD /* CatFact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		D9D951512A8AA99B00BCFFFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9D951532A8AA99C00BCFFFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9D951562A8AA99C00BCFFFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9D9515D2A8AA9D900BCFFFD /* CatFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsView.swift; sourceTree = "<group>"; };
+		D9D9515F2A8AA9E000BCFFFD /* CatImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImagesView.swift; sourceTree = "<group>"; };
+		D9D951612A8AA9EA00BCFFFD /* CatBounceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBounceView.swift; sourceTree = "<group>"; };
+		D9D951632A8AA9F000BCFFFD /* CatGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatGalleryView.swift; sourceTree = "<group>"; };
+		D9D951652A8AAC7400BCFFFD /* CatFactsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsManager.swift; sourceTree = "<group>"; };
+		D9D951672A8AB05B00BCFFFD /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				D9D9514F2A8AA99B00BCFFFD /* Tabby_CatApp.swift */,
 				D9D951512A8AA99B00BCFFFD /* ContentView.swift */,
+				D9D951652A8AAC7400BCFFFD /* CatFactsManager.swift */,
+				D9D9515D2A8AA9D900BCFFFD /* CatFactsView.swift */,
+				D9D951672A8AB05B00BCFFFD /* CatFact.swift */,
+				D9D9515F2A8AA9E000BCFFFD /* CatImagesView.swift */,
+				D9D951612A8AA9EA00BCFFFD /* CatBounceView.swift */,
+				D9D951632A8AA9F000BCFFFD /* CatGalleryView.swift */,
 				D9D951532A8AA99C00BCFFFD /* Assets.xcassets */,
 				D9D951552A8AA99C00BCFFFD /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D951642A8AA9F000BCFFFD /* CatGalleryView.swift in Sources */,
 				D9D951522A8AA99B00BCFFFD /* ContentView.swift in Sources */,
+				D9D951662A8AAC7400BCFFFD /* CatFactsManager.swift in Sources */,
+				D9D951622A8AA9EA00BCFFFD /* CatBounceView.swift in Sources */,
+				D9D9515E2A8AA9D900BCFFFD /* CatFactsView.swift in Sources */,
 				D9D951502A8AA99B00BCFFFD /* Tabby_CatApp.swift in Sources */,
+				D9D951682A8AB05B00BCFFFD /* CatFact.swift in Sources */,
+				D9D951602A8AA9E000BCFFFD /* CatImagesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

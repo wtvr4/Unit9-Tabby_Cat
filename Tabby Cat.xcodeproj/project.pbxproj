@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9A731632A98F0A800D03A96 /* meow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D9A731622A98F0A800D03A96 /* meow.m4a */; };
+		D9A731662A98F0E100D03A96 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = D9A731652A98F0E100D03A96 /* Subsonic */; };
+		D9A731682A98FF1500D03A96 /* CatBounceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A731672A98FF1500D03A96 /* CatBounceViewController.swift */; };
+		D9A7316A2A98FF2800D03A96 /* CatBounceScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A731692A98FF2800D03A96 /* CatBounceScreen.storyboard */; };
 		D9D951502A8AA99B00BCFFFD /* Tabby_CatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D9514F2A8AA99B00BCFFFD /* Tabby_CatApp.swift */; };
 		D9D951522A8AA99B00BCFFFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D951512A8AA99B00BCFFFD /* ContentView.swift */; };
 		D9D951542A8AA99C00BCFFFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D951532A8AA99C00BCFFFD /* Assets.xcassets */; };
@@ -20,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9A731622A98F0A800D03A96 /* meow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow.m4a; sourceTree = "<group>"; };
+		D9A731672A98FF1500D03A96 /* CatBounceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBounceViewController.swift; sourceTree = "<group>"; };
+		D9A731692A98FF2800D03A96 /* CatBounceScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CatBounceScreen.storyboard; sourceTree = "<group>"; };
 		D9D9514C2A8AA99B00BCFFFD /* Tabby Cat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tabby Cat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D9514F2A8AA99B00BCFFFD /* Tabby_CatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabby_CatApp.swift; sourceTree = "<group>"; };
 		D9D951512A8AA99B00BCFFFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A731662A98F0E100D03A96 /* Subsonic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +71,12 @@
 		D9D9514E2A8AA99B00BCFFFD /* Tabby Cat */ = {
 			isa = PBXGroup;
 			children = (
+				D9A731622A98F0A800D03A96 /* meow.m4a */,
 				D9D9514F2A8AA99B00BCFFFD /* Tabby_CatApp.swift */,
 				D9D951512A8AA99B00BCFFFD /* ContentView.swift */,
 				D9D951652A8AAC7400BCFFFD /* CatFactsManager.swift */,
+				D9A731672A98FF1500D03A96 /* CatBounceViewController.swift */,
+				D9A731692A98FF2800D03A96 /* CatBounceScreen.storyboard */,
 				D9D9515D2A8AA9D900BCFFFD /* CatFactsView.swift */,
 				D9D951672A8AB05B00BCFFFD /* CatFact.swift */,
 				D9D9515F2A8AA9E000BCFFFD /* CatImagesView.swift */,
@@ -101,6 +112,9 @@
 			dependencies = (
 			);
 			name = "Tabby Cat";
+			packageProductDependencies = (
+				D9A731652A98F0E100D03A96 /* Subsonic */,
+			);
 			productName = "Tabby Cat";
 			productReference = D9D9514C2A8AA99B00BCFFFD /* Tabby Cat.app */;
 			productType = "com.apple.product-type.application";
@@ -129,6 +143,9 @@
 				Base,
 			);
 			mainGroup = D9D951432A8AA99A00BCFFFD;
+			packageReferences = (
+				D9A731642A98F0E100D03A96 /* XCRemoteSwiftPackageReference "subsonic" */,
+			);
 			productRefGroup = D9D9514D2A8AA99B00BCFFFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -144,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9D951572A8AA99C00BCFFFD /* Preview Assets.xcassets in Resources */,
+				D9A7316A2A98FF2800D03A96 /* CatBounceScreen.storyboard in Resources */,
+				D9A731632A98F0A800D03A96 /* meow.m4a in Resources */,
 				D9D951542A8AA99C00BCFFFD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +181,7 @@
 				D9D9515E2A8AA9D900BCFFFD /* CatFactsView.swift in Sources */,
 				D9D951502A8AA99B00BCFFFD /* Tabby_CatApp.swift in Sources */,
 				D9D951682A8AB05B00BCFFFD /* CatFact.swift in Sources */,
+				D9A731682A98FF1500D03A96 /* CatBounceViewController.swift in Sources */,
 				D9D951602A8AA9E000BCFFFD /* CatImagesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +383,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9A731642A98F0E100D03A96 /* XCRemoteSwiftPackageReference "subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/subsonic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9A731652A98F0E100D03A96 /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9A731642A98F0E100D03A96 /* XCRemoteSwiftPackageReference "subsonic" */;
+			productName = Subsonic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D9D951442A8AA99A00BCFFFD /* Project object */;
 }
